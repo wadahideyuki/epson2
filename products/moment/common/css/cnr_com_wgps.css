@@ -1270,6 +1270,7 @@ SHARE
 }
 .pageMapZone .pageMapPart.isNo2 li {
 	margin-bottom: 10.5%;
+	text-indent: -10%;
 }
 .pageMapZone .pageMapPart.isNo3 ul li {
 	display: inline-block;

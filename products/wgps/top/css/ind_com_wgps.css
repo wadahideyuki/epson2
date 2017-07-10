@@ -425,6 +425,7 @@ PICK UP コンテンツ
 }
 .pickupZone .conts p {
 	margin-top: 5px;
+	text-align: center;
 }
 .pickupZone .conts p u {
 	display: inline-block;
@@ -433,9 +434,12 @@ PICK UP コンテンツ
 	text-align: center;
 	font-size: 13px;
 	vertical-align: top;
-	padding: 2px 0 1px 0;
 	letter-spacing: -0.2em;
 	text-decoration: none;
+}
+@media all and (-ms-high-contrast:none){
+  .pickupZone .conts p u  { 
+	padding: 4px 0 1px 0; } /* IE10 */
 }
 .pickupZone .conts p u + u {
 	margin-left: 5px;
