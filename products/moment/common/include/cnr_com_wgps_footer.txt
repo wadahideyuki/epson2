@@ -179,8 +179,8 @@
 			<div class="pageMapPart isNo4">
 				<ul>
 					<li><a href="/support/support_menu/ks/121.htm" target="_new"><span class="icnBlank">販売終了製品<br>仕様情報</span></a></li>
-					<li><a href="/products/wgps/sitemap/" >サイトマップ</a></li>
 					<li><a href="/products/wgps/support/" >サポート</a></li>
+					<li><a href="/products/wgps/sitemap/" >サイトマップ</a></li>
 				</ul>
 			</div>
 		</div>
