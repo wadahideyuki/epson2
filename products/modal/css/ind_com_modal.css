@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*--------------------------------------------------
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+--------------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { background: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
+
+body { line-height: 1; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+nav ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+a { background: transparent; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; }
+
+/* change colours to suit your needs */
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+/* change colours to suit your needs */
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr { border: 0; border-top: 1px solid #cccccc; display: block; height: 1px; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+a { color: #000; text-decoration: none; }
+
+a:focus { outline: none; }
+
+a:hover { opacity: 0.5; }
+
+@media screen and (max-width: 767px) { a:hover { opacity: 1; } }
+
+img { display: block; height: auto; }
+
+ul { list-style: none; }
+
+/* modal */
+.modal_contents { background-color: #fff; color: #000; font-family: "游ゴシック Medium", Yu Gothic Medium, "游ゴシック", Yu Gothic, "游ゴシック体", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", meiryo, sans-serif; font-size: 16px; left: 50%; line-height: 1.6; padding: 35px; position: absolute; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 900px; }
+
+.modal_close { cursor: pointer; position: absolute; right: 20px; top: 20px; }
+
+.modal_close:hover { opacity: 0.5; }
+
+.modal_closeImage { width: 30px; }
+
+.modal_subTitle { font-size: 17px; font-weight: bold; letter-spacing: 0.06em; margin-bottom: 10px; }
+
+.modal_title { font-size: 27px; font-weight: bold; letter-spacing: 0.06em; }
+
+.modal_text { margin-top: 20px; }
+
+.modal_list { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 40px; text-align: center; }
+
+.modal_listItem { -ms-flex-preferred-size: 25%; flex-basis: 25%; max-width: 25%; }
+
+.modal_listImage { margin: 0 auto; width: 132px; }
+
+.modal_listText { margin-top: 10px; }
+
+.modal_listNote { font-size: 13px; }
+
+.modal_note { font-size: 13px; margin-top: 20px; }
+
+.modal_box { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 30px -5px 0; }
+
+.modal_boxItem { -webkit-box-sizing: border-box; box-sizing: border-box; -ms-flex-preferred-size: 50%; flex-basis: 50%; max-width: 50%; padding: 10px 5px 0; }
+
+.modal_boxInner { background-color: #f0f0f0; -webkit-box-sizing: border-box; box-sizing: border-box; height: 100%; padding: 20px; }
+
+.modal_boxThumbnail { float: left; margin-right: 20px; }
+
+.modal_boxImage { width: 140px; }
+
+.modal_boxTitle { font-size: 19px; font-weight: bold; letter-spacing: 0.04em; }
+
+.modal_boxText { font-size: 15px; margin-top: 10px; overflow: hidden; }
+
+.modal_boxNote { clear: both; font-size: 13px; margin-top: 20px; }
+
+.modal_side { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 10px; }
+
+.modal_sideText { overflow: hidden; }
+
+.modal_sideThumbnail { margin-left: 30px; }
+
+.modal_sideImage { width: 300px; }
+
+@media screen and (max-width: 767px) { .modal_contents { -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 14px; line-height: 1.4; padding: 35px 24px 24px; width: calc(100% - 48px); }
+  .modal_close { right: 10px; top: 10px; }
+  .modal_close:hover { opacity: 1; }
+  .modal_closeImage { width: 20px; }
+  .modal_subTitle { font-size: 17px; font-weight: bold; letter-spacing: 0.06em; margin-bottom: 10px; }
+  .modal_title { font-size: 21px; letter-spacing: 0.08em; }
+  .modal_text { line-height: 2; }
+  .modal_list { -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 0; }
+  .modal_listItem { -ms-flex-preferred-size: 50%; flex-basis: 50%; margin-top: 25px; max-width: 50%; }
+  .modal_listImage { max-width: 132px; width: 100%; }
+  .modal_note { font-size: 13px; margin-top: 20px; }
+  .modal_box { display: block; margin: 30px -5px 0; }
+  .modal_boxItem { max-width: 100%; padding: 10px 5px 0; }
+  .modal_boxThumbnail { float: none; margin: 0; }
+  .modal_boxImage { margin: 0 auto; width: 185px; }
+  .modal_boxTitle { font-size: 16px; margin-top: 20px; }
+  .modal_boxText { font-size: 13px; }
+  .modal_boxNote { margin-top: 15px; }
+  .modal_side { display: block; margin-top: 20px; }
+  .modal_sideThumbnail { margin: 30px 0 0; }
+  .modal_sideImage { margin: 0 auto; width: 270px; } }

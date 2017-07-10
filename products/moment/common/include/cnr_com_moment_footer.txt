@@ -1,0 +1,30 @@
+<footer class="cf">
+	<nav id="deepFoot2" class="clearfix">
+		<div class="main">
+			<dl>
+				<dt class="ttl"><span class="iLink01"><a href="/products/moment/">EPSON MOMENT</a></span></dt>
+				<dd class="listBlock clearfix">
+					<div class="layCol01">
+						<ul class="list">
+							<li><a href="/products/trume/">TRUME</a></li>
+							<li><a href="http://www.orient-watch.jp/orientstar/" target="_new">ORIENT STAR<span class="blank"></span></a></li>
+							<li><a href="/products/wgps/">WristableGPS</a></li>
+							<li><a href="/products/smartcanvas/" target="_new">Smart Canvas<span class="blank"></span></a></li>
+						</ul>
+					</div>
+				</dd>
+			</dl>
+		</div>
+	</nav>
+	<nav id="fNav2">
+		<ul class="nav">
+			<li><a href="/company/" target="_new">企業情報<span class="blank"></span></a></li>
+			<li><a href="/contact/" target="_new">お問い合わせ<span class="blank"></span></a></li>
+			<li><a href="/tou/" target="_new">ご利用上の注意<span class="blank"></span></a></li>
+			<li><a href="/privacy/" target="_new">個人情報の取り扱いについて<span class="blank"></span></a></li>
+			<li><a href="http://www.epson.com/" target="_new">epson.com<span class="blank"></span></a></li>
+		</ul>
+		<p class="bottomlogo"><a href="/"><img src="/products/moment/common/images/logo_bottom_epson_pc.png" width="93" height="33" alt="" class="mq" /></a></p>
+		<p class="copy"><span>&copy; Seiko Epson Corp. / Epson Sales Japan Corp. 2017</span></p>
+	</nav>
+</footer>

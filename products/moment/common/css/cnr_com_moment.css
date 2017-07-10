@@ -1,0 +1,356 @@
+@charset "utf-8";
+/* CSS Document */
+/* For modern browsers */
+* {
+    margin: 0;
+    /* padding: 0; */
+}
+.cf:before,
+.cf:after {
+    content:"";
+    display:block;
+}
+ 
+.cf:after {
+    clear:both;
+}
+ 
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+.forsp {
+	display: none;
+}
+.mq {
+	visibility: hidden;
+}
+/*============================
+#ctsSns
+============================*/
+#ctsSns {
+	text-align: center;
+}
+#ctsSns h2{
+	text-align: center;
+	letter-spacing: 0.2em;
+	font-size: 1.4em;
+}
+#ctsSns ul{
+	padding-left:0;
+}
+#ctsSns .ctsInner {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+#ctsSns li {
+	display: inline-block;
+	margin: 20px 17px 8.7%;
+	width: 46px;
+	/* transition: 0.3s; */
+}
+#ctsSns li a img {
+	display: block;
+}
+
+/*============================
+#bottom_totop
+============================*/
+#bottom_totop{
+	position:fixed;
+	bottom:0;
+	right: 0;
+	text-align:right;
+	width:100%;
+	max-width: 510px;
+	z-index: 100;
+	transition: opacity 210ms ease-out;
+}
+#bottom_totop.stop{
+	opacity: 0;
+	pointer-events:none;
+}
+#bottom_totop a{
+	position: absolute;
+	display: block;
+	bottom: 50px;
+	right: 50px;
+	border: solid 1px rgba(255, 255, 255, 0.5);
+}
+#bottom_totop a img {
+	display: block;
+	width: 49px;
+	height: 49px;
+}
+/*============================
+#footer
+============================*/
+footer {
+	font-size: 14px;
+	background: #000000;
+	color: #fff;
+	font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+	line-height: 1.5;
+}
+footer a, footer a:visited ,footer a:link {
+	color: #fff;
+}
+footer a img{
+	height:auto;
+}
+#deepFoot2,
+#fNav2 {
+	max-width: 1040px;
+	margin: 0 auto;
+	width: 80%;
+}
+#deepFoot2 a {
+	text-decoration: none;
+}
+#deepFoot2 .main {
+	padding: 4.6% 0 2.9% 1%;
+	vertical-align: middle;
+	letter-spacing: 0.1em;
+	text-align: center;
+	font-size: 1.15em;
+}
+#deepFoot2 .ttl {
+	display: inline-block;
+	position: relative;
+	padding: 0 7.9% 0 0;
+}
+#deepFoot2 .ttl:after {
+	content: "";
+	height: 1px;
+	width: 1.8em;
+	display: inline-block;
+	background: #ffffff;
+	vertical-align: middle;
+	position: absolute;
+	top: 45%;
+	margin: 0 10.5% 0 0;
+	right: 0;
+}
+#deepFoot2 .listBlock {
+	display: inline-block;
+	font-size: 1.1em;
+}
+#deepFoot2 .list li {
+	display: inline-block;
+	font-size: 0.88em;
+	margin: 0 1.8em 0 0;
+	color: #fff;
+}
+#deepFoot2 .list li span.blank{
+	background: url(/products/trume/images/blank_footlink.png) no-repeat;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+	margin-left: 0.4em;
+	margin-right: -0.7em;
+	overflow: hidden;
+	vertical-align: middle;
+}
+#fNav2 {
+	font-size: 0.9em;
+	clear: both;
+	padding-bottom: 20px;
+	text-align: center;
+}
+#fNav2 li {
+	display: inline-block;
+	margin: 0 1.5em 1em 0;
+	letter-spacing: 0.07em;
+}
+#fNav2 li span.blank{
+	background: url(/products/trume/images/blank_footlink.png) no-repeat;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+	margin-left: 0.4em;
+	margin-right: 0em;
+	overflow: hidden;
+	vertical-align: middle;
+}
+#fNav2 li a{
+	text-decoration: none;
+}
+#fNav2 li a:hover{
+	text-decoration: none;
+}
+#fNav2 .bottomlogo {
+	display:inline-block;
+	margin:0 auto;
+}
+#fNav2 .nav {
+	padding: 0.1% 0.7% 3.2em 1em;
+}
+#fNav2 .copy {
+	font-size: 0.87em;
+	margin: 1.9em 0 1em;
+	padding: 0 0 0%;
+}
+#fNav2 .copy span{
+	color: #fff;
+}
+#deepFoot2 a:hover,
+#fNav2 li a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 1040px) {
+	footer {
+		font-size: 1.35vw;
+	}
+	#footer2 {
+		font-size: 1.25vw;
+		width: 100%;
+		font-size: 16px;
+	}
+	#footer2 #fNav2 .copy {
+		clear: both;
+		padding-top: 2.9em;
+		text-align: right;
+		width: 100%;
+		margin: 0;
+	}
+	#deepFoot2, #fNav2 {
+		width: 95%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.forsp {
+		display: block;
+	}
+	.forpc {
+		display: none;
+	}
+	#ctsSns li {
+		margin: 5.8% 3.7% 11.2%;
+		width: 13.59%;
+	}
+	#ctsSns li img{
+		width: 100%;
+	}
+	#bottom_totop a {
+		width: 12.4%;
+		right: 0;
+		bottom: 10px;
+	}
+	#bottom_totop a img {
+		width: 100%;
+		height: auto;
+	}
+	footer {
+		font-size: 3.75vw;
+	}
+	#footer2 {
+		width: 100%;
+	}
+	#deepFoot,
+	#fNav2 {
+		width: 87.5%;
+		padding-bottom: 6.3%;
+	}
+	#deepFoot2 {
+		font-size: 0.77em;
+	}
+	#deepFoot2 a {
+		text-decoration: none;
+	}
+	#deepFoot2 .main {
+		padding: 8% 0 15.9%;
+		vertical-align: middle;
+		letter-spacing: 0.1em;
+		width: 91.7%;
+		margin: 0 auto;
+	}
+	#deepFoot2 .ttl {
+		display: block;
+		position: relative;
+		padding: 0;
+		font-size: 1.37em;
+	}
+	#deepFoot2 .ttl:after {
+		width: 10.8%;/
+		top: 0;
+		margin: 11.5% 0 0 45.3%;
+		left: 0;
+		height: 0.5px;
+		background: #fff;
+	}
+	#deepFoot2 .listBlock {
+		display: inline-block;
+		margin-top: 14.8%;
+		line-height: 1;
+		margin-left: 0;
+	}
+	#deepFoot2 .list li {
+		display: inline-block;
+		font-size: 1.17em;
+		margin: 0 0 1.15em;
+		width: 48%;
+	}
+	#deepFoot2 .list li span.blank{
+		background: url(/products/trume/images/blank_footlink_sp.png) no-repeat;
+		background-size: 80%;
+		width: 1em;
+		height: 1em;
+		display: inline-block;
+		margin-left: 0.4em;
+		margin-right: -0.7em;
+		overflow: hidden;
+		vertical-align: middle;
+	}
+	#deepFoot2 .list {
+		border-bottom: #808080 1px solid;
+		padding-bottom: 5.7%;
+		padding-left: 0;
+		margin-bottom: -5%;
+		margin-top: 0;
+	}
+	#fNav2 {
+		font-size: 0.78em;
+	}
+	#fNav2 li {
+		float: none;
+		margin: 0 0 1.2em 1em;
+		font-size: 1.25em;
+		letter-spacing: 0.03em;
+	}
+	#fNav2 li:first-child {
+		margin-left:0;
+	}
+	#fNav2 li:nth-child(4) {
+		margin-left:0;
+	}
+	#fNav2 li span.blank{
+		background: url(/products/trume/images/blank_footlink_sp.png) no-repeat;
+		background-size: 80%;
+	}
+	#fNav2 .nav {
+		padding: 0;
+		font-size: 1.14em;
+		letter-spacing: -0.1em;
+		margin-bottom: 6.6%;
+	}
+	#fNav2 .bottomlogo a {
+		width: 28%;
+		display: inline-block;
+	}
+	#fNav2 .bottomlogo a img{
+		width:100%;
+	}
+	#fNav2 .copy {
+		text-align: center;
+		float: none;
+		font-size: 1.1em;
+		margin: 7.6% 0 0;
+		padding: 0;
+	}
+	#footer2 #fNav .copy {
+		font-size: 0.81em;
+		padding-bottom: 1.5em;
+		text-align: center;
+	}
+}

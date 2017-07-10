@@ -1,0 +1,1293 @@
+@charset "utf-8";
+/* CSS Document */
+/* For modern browsers */
+* {
+	padding: 0;
+}
+body {
+	font-family: "游ゴシック Medium", Yu Gothic Medium, "游ゴシック", Yu Gothic, "游ゴシック体", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", meiryo, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 12px;
+	line-height: 1.4;
+	box-sizing: content-box;
+	padding-top: 70px;
+
+}
+h1 {
+	margin: 0;
+}
+.spDevice {
+	display: none !important;
+}
+
+
+.icnBlank {
+	display: inline-block;
+	background: url(/products/moment/common/images/icn_new_window.png) right center no-repeat;
+	padding-right: 16px;
+}
+
+
+/*============================
+ヘッダー
+============================*/
+header {
+	background-color: #000;
+	height: 70px;
+	padding: 0px 30px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 999;
+}
+header h1 {
+	width: 227px;
+	padding: 20px 0 0;
+	float: left;
+}
+header h1 a {
+	display: block;
+}
+header .colR {
+	text-align: right;
+	float: right;
+}
+header .colR > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+header .colR > nav {
+	letter-spacing: -0.5em;
+}
+header .colR > nav .headNav {
+	display: inline-block;
+	letter-spacing: normal;
+}
+header .colR > nav .headNav > a {
+	display: block;
+	height: 70px;
+	padding: 0 25px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 70px;
+}
+header .colR > nav .headNav > a:hover,  header .colR > nav .headNav > a.on {
+	background-color: #4d4d4d;
+}
+header .colR > .searchBox {
+	background: url(/products/moment/common/images/icn_search.png) 8px 9px no-repeat #fff;
+	background-size: 16px auto;
+	width: 130px;
+	margin: 0px 0 0 10px;
+	padding-left: 31px;
+}
+header .colR > .searchBox input {
+	background: none;
+	width: 100%;
+	padding: 9px 5px 9px 15px;
+	color: #000;
+	font-size: 12px;
+	line-height: 1;
+	border: none;
+	box-sizing: border-box;
+	height: 32px;
+}
+header .colR > .toEpson {
+	margin: 0px 0 0 30px;
+	line-height: 1;
+	width: 90px;
+}
+.spMenuBtn {
+	display: none;
+}
+
+
+/*============================
+ヘッダーのラインアップの開閉メニュー
+============================*/
+.pcLineupMenu {
+	display: none;
+	width: 100%;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	z-index: 10;
+}
+.pcLineupMenu .accordion {
+	background-color: rgba(0,0,0,0.8);
+}
+.pcLineupMenu .inner {
+	padding: 30px 10px 20px;
+}
+.pcLineupMenu ul {
+	margin: 0 -5px;
+	letter-spacing: -0.5em;
+}
+.pcLineupMenu li {
+	display: inline-block;
+	width: 18.9796%;
+	margin: auto 0.5102%;
+	padding-bottom: 10px;
+	letter-spacing: normal;
+}
+.pcLineupMenu li.col2 {
+	width: 38.9796%;
+}
+.pcLineupMenu li a {
+	display: block;
+}
+.pcLineupMenu li a:hover {
+	opacity: 0.8;
+}
+
+
+/*============================
+SPのサイドメニュー
+============================*/
+.spMenu {
+	position: relative;
+}
+
+
+/*============================
+専用アプリケーション
+============================*/
+.appliZone {
+}
+.appliZone .ttl1 {
+	margin-bottom: 25px;
+}
+.appliZone .ttl1 small {
+	display: block;
+	font-size: 13px;
+}
+.appliZone .bnBox {
+	max-width: 970px;
+	margin: auto;
+	padding: 0 10px;
+}
+.appliZone .bnBox a {
+	display: block;
+}
+.appliZone .bnBox a:hover {
+	opacity: 0.8;
+}
+
+
+/*============================
+SNS公式アカウント
+============================*/
+.snsZone {
+	max-width: 970px;
+	margin: 68px auto 0;
+	padding: 0 10px;
+}
+.snsZone .ttl1 {
+	margin-bottom: 25px;
+}
+.snsZone .accountBox {
+	overflow: hidden;
+}
+.snsZone .accountBox ul {
+	margin: 0 -13px;
+	text-align: center;
+	letter-spacing: -0.5em;
+}
+.snsZone .accountBox li {
+	display: inline-table;
+	width: 33.3334%;
+	height: 240px;
+	padding: 0 13px;
+	vertical-align: top;
+	letter-spacing: normal;
+	box-sizing: border-box;
+}
+.snsZone .accountBox li a {
+	display: table-cell;
+	padding-top: 47px;
+	color: #000;
+	vertical-align: top;
+	border: 1px solid #ccc;
+}
+.snsZone .accountBox li a:hover {
+	opacity: 0.8;
+}
+.snsZone .accountBox li a > .img {
+	display: block;
+	margin-bottom: 25px;
+}
+.snsZone .accountBox li a > .img img {
+	width: 60px;
+}
+.snsZone .accountBox li a > p {
+	font-size: 14px;
+}
+.snsZone .accountBox li a > p > * {
+	display: block;
+}
+.snsZone .accountBox li a > p > strong {
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.snsZone .accountBox li.snsFace2 a > p > strong .txt1, .snsZone .accountBox li.snsFace2 a > p > strong .txt2 {
+	display: block;
+}
+.snsZone .accountBox li.snsInsta a > p > strong {
+	margin-bottom: 0;
+}
+.snsZone .accountBox li.snsInsta a > p > strong span.txt {
+	display: none;
+}
+.snsZone .accountBox li.snsInsta a > p > span.img {
+	margin-bottom: 10px;
+}
+
+
+/*============================
+ご購入
+============================*/
+.buyZone {
+	max-width: 970px;
+	margin: 60px auto 0;
+	padding: 0 10px;
+}
+.buyZone .ttl1 {
+	margin-bottom: 25px;
+}
+.buyZone .buyBox li {
+	width: 48.6598%;
+}
+.buyZone .buyBox li.hanbaiten {
+	float: left;
+}
+.buyZone .buyBox li.catalog {
+	float: right;
+}
+.buyZone .buyBox li a {
+	display: block;
+	background-color: #edf4fa;
+	height: 120px;
+}
+.buyZone .buyBox li a:hover {
+	opacity: 0.7;
+}
+.buyZone .buyBox li.hanbaiten a {
+	padding-left: 44px;
+}
+.buyZone .buyBox li.catalog a {
+	padding-left: 41px;
+}
+.buyZone .buyBox li a span {
+	display: inline-block;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 79px auto;
+	color: #000;
+	font-size: 20px;
+	line-height: 120px;
+}
+.buyZone .buyBox li.hanbaiten a span {
+	background-image: url(/products/moment/common/images/buy_icn01.png);
+	padding-left: 119px;
+}
+.buyZone .buyBox li.catalog a span {
+	background-image: url(/products/moment/common/images/buy_icn02.png);
+	padding-left: 122px;
+}
+
+
+/*============================
+サポート
+============================*/
+.supportZone {
+	max-width: 970px;
+	margin: 60px auto 0;
+	padding: 0 10px;
+}
+.supportZone .ttl1 {
+	margin-bottom: 20px;
+}
+.supportZone .btnBox {
+	margin: 0px 20px 20px 0;
+	text-align: center;
+}
+.supportZone .btnBox a {
+	display: inline-block;
+	background: url(/products/moment/common/images/arw_r1.png) right center no-repeat;
+	padding-right: 21px;
+	color: #000;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.supportZone .btnBox a:hover {
+	text-decoration: none;
+}
+.supportZone .supportBtns ul {
+	margin: 0 -5px;
+	letter-spacing: -0.5em;
+	text-align: center;
+}
+.supportZone .supportBtns li {
+	display: inline-table;
+	width: 130px;
+	height: 120px;
+	margin: 0 5px 10px;
+	letter-spacing: normal;
+	vertical-align: top;
+}
+.supportZone .supportBtns li a {
+	display: table-cell;
+	background-color: #f0f0f0;
+	color: #000;
+	vertical-align: middle;
+}
+.supportZone .supportBtns li a:hover {
+	opacity: 0.7;
+}
+.supportZone .supportBtns li a span {
+	display: block;
+}
+.supportZone .supportBtns li.supportBtn1 a span {
+	padding-bottom: 21px;
+}
+.supportZone .supportBtns li.supportBtn2 a span {
+	padding-bottom: 15px;
+}
+.supportZone .supportBtns li.supportBtn3 a span {
+	padding-bottom: 20px;
+}
+.supportZone .supportBtns li.supportBtn4 a span {
+	padding-bottom: 21px;
+}
+.supportZone .supportBtns li.supportBtn5 a span {
+	padding-bottom: 21px;
+}
+.supportZone .supportBtns li.supportBtn6 a span {
+	padding-bottom: 22px;
+}
+.supportZone .supportBtns li.supportBtn7 a span {
+	padding-bottom: 18px;
+}
+.supportZone .supportBtns li a span img {
+}
+.supportZone .supportBtns li.supportBtn1 a span img {
+	width: 41px;
+}
+.supportZone .supportBtns li.supportBtn2 a span img {
+	width: 42px;
+}
+.supportZone .supportBtns li.supportBtn3 a span img {
+	width: 35px;
+}
+.supportZone .supportBtns li.supportBtn4 a span img {
+	width: 43px;
+}
+.supportZone .supportBtns li.supportBtn5 a span img {
+	width: 32px;
+}
+.supportZone .supportBtns li.supportBtn6 a span img {
+	width: 39px;
+}
+.supportZone .supportBtns li.supportBtn7 a span img {
+	width: 35px;
+}
+.supportZone .supportBtns li a p {
+	font-size: 16px;
+}
+
+
+/*============================
+SHARE
+============================*/
+.shareZone {
+	max-width: 970px;
+	margin: 150px auto 0;
+	padding: 0 10px;
+}
+.shareZone .ttl1 {
+	margin-bottom: 21px;
+}
+.shareZone .shareBox {
+	margin-bottom: 34px;
+	text-align: center;
+}
+.shareZone .shareBox li {
+	display: inline-block;
+	width: 46px;
+	margin: 0 15px;
+}
+.shareZone .txt1 {
+	margin-bottom: 90px;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+}
+.shareZone .note {
+	font-size: 11px;
+	line-height: 1.272;
+}
+
+/*============================
+ページ下部のサイトマップ
+============================*/
+.pageMapZone {
+	background-color: #525252;
+	margin-top: 50px;
+	padding: 63px 0 52px;
+	color: #fff;
+	font-size: 12px;
+	letter-spacing: -0.5em;
+}
+.pageMapZone a {
+	color: #fff;
+}
+.pageMapZone a:hover{
+	text-decoration: underline;
+}
+.pageMapZone .pageMapBox {
+	display: table;
+	width: 100%;
+}
+.pageMapZone .pageMapPart {
+	display: table-cell;
+	vertical-align: top;
+	letter-spacing: normal;
+	box-sizing: border-box;
+}
+.pageMapZone .pageMapPart + .pageMapPart {
+	border-left: 1px solid #fff;
+}
+.pageMapZone .pageMapPart.isNo1 {
+	width: 20%;
+}
+.pageMapZone .pageMapPart.isNo2 {
+	width: 35%;
+}
+.pageMapZone .pageMapPart.isNo3 {
+	width: 23.6626%;
+}
+.pageMapZone .pageMapPart.isNo4 {
+	width: 24.2799%;
+}
+.pageMapZone .pageMapPart.isNo1 {
+	letter-spacing: 0.1em;
+}
+.pageMapZone .pageMapPart.isNo1 dl > * {
+	display: inline-block;
+	vertical-align: top;
+}
+.pageMapZone .pageMapPart.isNo1 dl > dt {
+	padding-right: 10%;
+	position: relative;
+}
+.pageMapZone .pageMapPart.isNo1 dl > dt:after {
+	content: "";
+	display: block;
+	background-color: #fff;
+	width: 11.2%;
+	height: 1px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+.pageMapZone .pageMapPart.isNo1 dl > dd {
+	padding-left: 4%;
+}
+.pageMapZone .pageMapPart.isNo2 ul {
+	display: inline-block;
+	width: 44%;
+	padding-left: 6%;
+	vertical-align: top;
+}
+.pageMapZone .pageMapPart.isNo2 ul:nth-child(2){
+	width: 50%;
+}
+.pageMapZone .pageMapPart.isNo2 li {
+	display: block;
+	margin-bottom: 13%;
+	letter-spacing: 0.1em;
+}
+.pageMapZone .pageMapPart.isNo3 ul li {
+	margin-bottom: 5.8%;
+	padding: 0 0 0% 30%;
+	position: relative;
+}
+.pageMapZone .pageMapPart.isNo3 ul li:before {
+	content: "";
+	display: block;
+	background-color: #fff;
+	width: 8%;
+	height: 1px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 13%;
+}
+.pageMapZone .pageMapPart.isNo4 ul li {
+	margin-bottom: 5.8%;
+	padding: 0 0 0% 30%;
+	position: relative;
+}
+.pageMapZone .pageMapPart.isNo4 ul li:before {
+	content: "";
+	display: block;
+	background-color: #fff;
+	width: 8%;
+	height: 1px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 13%;
+}
+
+
+
+/*------------------メディアクエリ------------------*/
+@media screen and (min-width:768px) {
+/*============================
+SPのサイドメニュー
+============================*/
+	.spMenu {
+		display: none !important;
+	}
+}/* meadia (min-width:768px) End */
+
+
+@media screen and (max-width:1280px) {
+/*============================
+ヘッダー
+============================*/
+header {
+	padding: 0 20px;
+	font-size: 0.782vw;
+}
+header h1 {
+	width: 16.5%;
+	padding-top: 20px;
+}
+header .colR {
+	width: 83.5%;
+}
+header .colR > nav .headNav > a {
+	padding: 0 15px;
+	font-size: 1.4em;
+}
+header .colR > .toEpson {
+	margin: 0px 0 0 15px;
+}
+
+
+
+}/* meadia (max-width:1280px) End */
+
+
+@media screen and (max-width:1100px) {
+/*============================
+ヘッダー
+============================*/
+body{
+	padding-top: 60px;
+}
+header {
+	height: 60px;
+}
+header .colR > nav .headNav > a {
+	height: 60px;
+	padding: 0 10px;
+	line-height: 60px;
+}
+header .colR > .searchBox {
+	background-position: 4px 6px;
+	background-size: 14px auto;
+	width: 100px;
+	padding-left: 22px;
+}
+header .colR > .searchBox input {
+	padding: 7px 5px 7px 10px;
+	font-size: 10px;
+	height: 25px;
+}
+
+
+/*============================
+ヘッダーのラインアップの開閉メニュー
+============================*/
+.pcLineupMenu {
+	top: 60px;
+}
+
+
+}/* meadia (max-width:1100px) End */
+
+
+@media screen and (max-width:1000px) {
+/*============================
+ヘッダー
+============================*/
+body{
+	padding-top: 50px;
+}
+header {
+	height: 50px;
+}
+header .colR > nav .headNav > a {
+	height: 50px;
+	padding: 0 5px;
+	line-height: 50px;
+}
+
+
+/*============================
+ヘッダーのラインアップの開閉メニュー
+============================*/
+.pcLineupMenu {
+	top: 50px;
+}
+
+
+/*============================
+SNS公式アカウント
+============================*/
+.snsZone {
+	margin-top: 6.8vw;
+}
+/*============================
+ご購入
+============================*/
+.buyZone{
+	margin-top: 6vw;
+}
+/*============================
+サポート
+============================*/
+.supportZone{
+	margin-top: 6vw;
+}
+/*============================
+SHARE
+============================*/
+.shareZone {
+	margin-top: 15vw;
+}
+.shareZone .txt1{
+	margin-bottom: 9vw;
+}
+}/* meadia (max-width:1000px) End */
+
+
+@media screen and (max-width:990px) {
+/*============================
+SNS公式アカウント
+============================*/
+.snsZone .accountBox ul {
+	margin: 0 -5px;
+}
+.snsZone .accountBox li {
+	height: 240px;
+	padding: 0 5px;
+}
+
+
+/*============================
+ご購入
+============================*/
+.buyZone .buyBox ul {
+	margin: 0 -5px;
+}
+.buyZone .buyBox li {
+	width: 48.6598%;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+.buyZone .buyBox li a {
+	padding-left: 6.25% !important;
+}
+.buyZone .buyBox li.hanbaiten a {
+}
+.buyZone .buyBox li.catalog a {
+}
+.buyZone .buyBox li a span {
+	font-size: 2.0202vw;
+}
+
+/*============================
+サポート
+============================*/
+.supportZone .supportBtns li{
+	width: 13vw;
+	height: 12vw;
+	margin: 0 0.45vw 3.125vw;
+}
+.supportZone .supportBtns li a p{
+	font-size: 1.5vw;
+}
+.pickupZone .conts li{
+	width: 24% ;
+	margin: 0 0.5vw 1.8vw ;
+}
+.snsZone .accountBox li {
+	padding: 0 1.5vw;
+}
+.snsZone .accountBox li a{
+	padding-top: 5vw
+
+}
+.pageMapZone .pageMapPart.isNo1 dl > dt a{
+	display: block;
+}
+.pageMapZone{
+	font-size: 1vw;
+}
+
+
+}/* meadia (max-width:990px) End */
+
+
+@media screen and (max-width:767px) {
+body{
+	padding-top: 0px;
+}
+.pcBrows {
+	display: none !important;
+}
+.spDevice.isDisI {
+	display: inline !important;
+}
+.spDevice.isDisB {
+	display: block!important;
+}
+.spDevice.isDisIB {
+	display: inline-block !important;
+}
+html {
+	font-size: 1.3334vw;
+}
+body {
+	min-width: 0;
+	font-size: 10em;
+}
+.icnBlank {
+	background-size: 3.4667vw auto;
+	padding-right: 6.1334vw;
+}
+
+
+/*============================
+ヘッダー
+============================*/
+header {
+	height: auto;
+	padding: 0;
+	position: relative;
+}
+header h1 {
+	width: 46.5333%;
+	margin: 0 auto;
+	padding: 6.6667% 0;
+	float: none;
+}
+header .colR {
+	display: none;
+}
+.spMenuBtn {
+	display: block;
+	width: 7.6%;
+	margin-top: 6.2667%;
+	position: absolute;
+	top: 0;
+	left: 6.2667%;
+}
+.spMenuBtn a.opn {
+	display: block;
+}
+.spMenuBtn a.cls {
+	display: none;
+	width: 90%;
+}
+.spMenuBtn.on a.opn {
+	display: none;
+}
+.spMenuBtn.on a.cls {
+	display: block;
+}
+
+
+/*============================
+SPのサイドメニュー
+============================*/
+.spMenu {
+	position: relative;
+}
+.spMenu a {
+	color: #bababa;
+}
+.spMenu .in {
+	width: 86.6667%;
+	background-color: rgba(0,0,0,0.9);
+	border-top: 1px solid #8c8c8c;
+	position: absolute;
+	top: 0;
+	left: -650px;
+	z-index: 100;
+}
+.spMenu .in .rowSearch {
+	padding: 7.3847%;
+}
+.spMenu .in .searchBoxSp {
+	display: table;
+	background-color: #fff;
+	width: 100%;
+	line-height: 1;
+}
+.spMenu .in .searchBoxSp > * {
+	display: table-cell;
+	vertical-align: middle;
+}
+.spMenu .in .searchBoxSp > span {
+	width: 11.732%;
+	text-align: right;
+}
+.spMenu .in .searchBoxSp > span img {
+	width: 68.75%;
+	padding-top: 45%;
+	vertical-align: top;
+}
+.spMenu .in .searchBoxSp input {
+	background: none;
+	width: 100%;
+	padding: 6.57% 2.05% 6.57% 18.48%;
+	color: #000;
+	opacity: 1;
+	font-size: 3rem;
+	border: none;
+}
+ .spMenu .in .searchBoxSp input:placeholder-shown,  .spMenu .in .searchBoxSp input::-webkit-input-placeholder,  .spMenu .in .searchBoxSp input:-ms-input-placeholder,  .spMenu .in .searchBoxSp input:-moz-placeholder,  .spMenu .in .searchBoxSp input::-moz-placeholder {
+ color:#000;
+ opacity:1;
+}
+.spMenuList1 {
+	font-size: 3.5rem;
+	border-bottom: 1px solid #8c8c8c;
+}
+.spMenuList1 li {
+	background: url(/products/moment/common/images/sp_menu_arw_r.png) 90% center no-repeat;
+	background-size: 2.1334vw auto;
+}
+.spMenuList1 li.accordBtn {
+	background: url(/products/moment/common/images/sp_menu_arw_b.png) 90% center no-repeat;
+	background-size: 4vw auto;
+}
+.spMenuList1 li.icnBlank {
+	background: url(/products/moment/common/images/icn_new_window.png) 90% center no-repeat;
+	background-size: 4vw auto;
+	padding-right: 0px;
+	display: block;
+}
+.spMenuList1 li.accordBtn.on {
+	background-image: url(/products/moment/common/images/sp_menu_arw_t.png);
+}
+.spMenuList1 li a {
+	display: block;
+	padding: 7.3847%;
+	font-weight: bold;
+	border-top: 1px solid #8c8c8c;
+}
+.spMenuList1 .accordion {
+	display: none;
+	background: #333;
+	border-top: 1px solid #8c8c8c;
+}
+.spMenuList1 .accordion a {
+	background-position: 87% center;
+	margin-left: 11.84%;
+}
+.spMenuList1 .accordion li:first-child a {
+	border-top: none;
+}
+.spMenuList2 {
+	background-color: #333;
+	margin: 7.6924% 7.6924% 10.7693%;
+	padding: 9.6924% 8.7693% 12.3076%;
+	font-size: 3.5rem;
+}
+.spMenuList2 a {
+	display: block;
+	background: url(/products/moment/common/images/sp_menu_arw_r.png) right center no-repeat;
+	background-size: 2.1334vw auto;
+	font-weight: bold;
+}
+.spMenuList2 a.icnBlank{
+	background: url(/products/moment/common/images/icn_new_window.png) right center no-repeat;
+	background-size: 3vw auto;
+}
+.spMenuList2 p {
+	margin-bottom: 6.88%;
+	padding-bottom: 13.76%;
+	border-bottom: 1px solid #8c8c8c;
+}
+.spMenuList2 li {
+	padding: 6.88% 0;
+}
+.spMenuList2 li:last-child {
+	padding-bottom: 0;
+}
+.spMenu .in .toEpsonSp {
+	display: block;
+	width: 28%;
+	margin: 0 auto 11.5385%;
+	font-size: 0;
+	text-align: center;
+}
+.spMenu .in .toEpsonSp {
+}
+
+
+/*============================
+専用アプリケーション
+============================*/
+.appliZone {
+	padding: 0 6.4%;
+}
+.appliZone .ttl1 {
+	margin-bottom: 6.1163%;
+	font-size: 3.75rem;
+}
+.appliZone .ttl1 small {
+	font-size: 2.4rem;
+}
+.appliZone .bnBox {
+	padding: 0;
+}
+
+
+/*============================
+SNS公式アカウント
+============================*/
+.snsZone {
+	margin: 13.0667% auto 0;
+	padding: 0 6.4%;
+}
+.snsZone .ttl1 {
+	margin-bottom: 5.6575%;
+}
+.snsZone .accountBox ul {
+	margin: 0;
+}
+.snsZone .accountBox li {
+	display: block;
+	width: auto;
+	height: auto;
+	margin: 0;
+}
+.snsZone .accountBox li + li {
+	margin-top: 6.7279%;
+}
+.snsZone .accountBox li a {
+	display: table;
+	width: 100%;
+	padding-top: 0;
+}
+.snsZone .accountBox li a > * {
+	padding-top: 12.3854%;
+	padding-bottom: 13.3028%;
+}
+.snsZone .accountBox li a > .img {
+	display: table-cell;
+	width: 22.48%;
+	margin-bottom: 0;
+	font-size: 0;
+	text-align: right;
+	vertical-align: middle;
+}
+.snsZone .accountBox li a > .img img {
+	width: 48.9796%;
+	vertical-align: middle;
+}
+.snsZone .accountBox li a > p {
+	display: table-cell;
+	padding-left: 5.5046%;
+	font-size: 2.4rem;
+	text-align: left;
+	vertical-align: middle;
+}
+.snsZone .accountBox li a > p > * {
+}
+.snsZone .accountBox li a > p > strong {
+	margin-bottom: 0px;
+	font-size: inherit;
+}
+.snsZone .accountBox li.snsFace2 a > p > strong .txt1,  .snsZone .accountBox li.snsFace2 a > p > strong .txt2 {
+	display: inline;
+}
+.snsZone .accountBox li.snsFace2 a > p > strong .txt2 {
+	padding-left: 0.5em;
+}
+.snsZone .accountBox li.snsInsta a > p > strong span.txt {
+	display: inline;
+	padding-left: 0.5em;
+}
+.snsZone .accountBox li.snsInsta a > p > span.img {
+	display: none;
+}
+
+
+/*============================
+ご購入
+============================*/
+.buyZone {
+	margin: 13.3334% auto 0;
+	padding: 0 6.4%;
+}
+.buyZone .ttl1 {
+	margin-bottom: 5.6575%;
+}
+.buyZone .buyBox li {
+	width: auto;
+	float: none !important;
+}
+.buyZone .buyBox li.hanbaiten {
+}
+.buyZone .buyBox li.catalog {
+	margin-top: 6.7279%;
+}
+.buyZone .buyBox li a {
+	height: auto;
+	padding-left: 10.2447% !important;
+	font-size: 0;
+	position: relative;
+}
+.buyZone .buyBox li a:hover {
+	opacity: 0.7;
+}
+.buyZone .buyBox li.hanbaiten a {
+}
+.buyZone .buyBox li.catalog a {
+}
+.buyZone .buyBox li a:after {
+	content: "";
+	display: inline-block;
+	background: url(/products/moment/common/images/arw_r1.png) 0 0 no-repeat;
+	background-size: contain;
+	vertical-align: middle;
+	width: 3.6698%;
+	height: 0;
+	margin: auto;
+	padding-top: 3.6698%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 9.7334%;
+}
+.buyZone .buyBox li a span {
+	display: inline-block;
+	background-size: 15.8667vw auto;
+	padding-left: 26.5759% !important;
+	font-size: 2.6rem;
+	line-height: 9.2308;
+}
+.buyZone .buyBox li.hanbaiten a span {
+}
+.buyZone .buyBox li.catalog a span {
+}
+
+
+/*============================
+サポート
+============================*/
+.supportZone {
+	margin: 12.5334% auto 0;
+	padding: 0;
+}
+.supportZone .ttl1 {
+	margin-bottom: 4.6667%;
+	font-size: 3.7rem;
+}
+.supportZone .btnBox {
+	margin: 0px 0px 5.4667%;
+	font-size: 0;
+}
+.supportZone .btnBox a {
+	background: url(/products/moment/common/images/arw_r1.png) right center no-repeat;
+	background-size: 9.6386% auto;
+	padding-right: 6.422%;
+	font-size: 2.6rem;
+}
+.supportZone .supportBtns ul {
+	margin: 0;
+	padding: 0 3.2%;
+	text-align: left;
+}
+.supportZone .supportBtns li {
+	width: 50%;
+	height: auto;
+	margin: 0 0 6.8377%;
+	padding: 0 3.4189%;
+	box-sizing: border-box;
+}
+.supportZone .supportBtns li a {
+	font-size: 0;
+	text-align: center;
+}
+.supportZone .supportBtns li a span {
+	padding-bottom: 53.4654% !important;
+	position: relative;
+}
+.supportZone .supportBtns li a span img {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.supportZone .supportBtns li.supportBtn1 a span img {
+	width: 23.7624%;
+}
+.supportZone .supportBtns li.supportBtn2 a span img {
+	width: 20.7921%;
+}
+.supportZone .supportBtns li.supportBtn3 a span img {
+	width: 19.802%;
+}
+.supportZone .supportBtns li.supportBtn4 a span img {
+	width: 24.4225%;
+}
+.supportZone .supportBtns li.supportBtn5 a span img {
+	width: 19.802%;
+}
+.supportZone .supportBtns li.supportBtn6 a span img {
+	width: 24.7525%;
+}
+.supportZone .supportBtns li.supportBtn7 a span img {
+	width: 20.4621%;
+}
+.supportZone .supportBtns li a p {
+	padding-bottom: 18.1519%;
+	font-size: 2.4rem;
+}
+
+
+/*============================
+SHARE
+============================*/
+.shareZone {
+	margin: 9.3334% auto 0;
+	padding: 0;
+}
+.shareZone .ttl1 {
+	margin-bottom: 5.8667%;
+	font-size: 4.4rem;
+}
+.shareZone .shareBox {
+	margin-bottom: 7.6%;
+	font-size: 0;
+}
+.shareZone .shareBox li {
+	width: 13.8667%;
+	margin: 0 4.4%;
+}
+.shareZone .txt1 {
+	margin-bottom: 21.3334%;
+	font-size: 3.5rem;
+}
+.shareZone .note {
+	padding: 0 6.9334%;
+	font-size: 2.0rem;
+	line-height: 1.5;
+}
+
+
+/*============================
+ページ下部のサイトマップ
+============================*/
+.pageMapZone {
+	background-color: #333;
+	margin-top: 16.5334%;
+	padding: 9.7334% 0 5%;
+	font-size: 3.0rem;
+}
+.pageMapZone .inner {
+	padding: 0 6.4%;
+}
+.pageMapZone a {
+}
+.pageMapZone .fzL {
+	font-size: 3.2rem;
+}
+.pageMapZone .pageMapBox {
+	display: block;
+	width: auto;
+}
+.pageMapZone .pageMapPart {
+	display: block;
+	width: auto !important;
+}
+.pageMapZone .pageMapPart + .pageMapPart {
+	border-left: none;
+}
+.pageMapZone .pageMapPart.isNo1 {
+}
+.pageMapZone .pageMapPart.isNo2 {
+	padding: 10.3976% 0 6.1163%;
+}
+.pageMapZone .pageMapPart.isNo3 {
+	padding-top: 11.01%;
+	border-top: 1px solid #999;
+}
+.pageMapZone .pageMapPart.isNo4 {
+	display: none;
+}
+.pageMapZone .pageMapPart.isNo1 {
+}
+.pageMapZone .pageMapPart.isNo1 dl > * {
+	display: block;
+	font-size: 3.2rem;
+	text-align: center;
+}
+.pageMapZone .pageMapPart.isNo1 dl > dt {
+	padding: 0 0 7.9511%;
+}
+.pageMapZone .pageMapPart.isNo1 dl > dt:after {
+	width: 10.3976%;
+	top: auto;
+	bottom: 0;
+	left: 0;
+}
+.pageMapZone .pageMapPart.isNo1 dl > dd {
+	padding: 8.5627% 0 0;
+}
+.pageMapZone .pageMapPart.isNo2 ul {
+	width: 48%;
+	box-sizing: border-box;
+}
+.pageMapZone .pageMapPart.isNo2 li {
+	margin-bottom: 10.5%;
+}
+.pageMapZone .pageMapPart.isNo3 ul li {
+	display: inline-block;
+	width: 48%;
+	margin-bottom: 6%;
+	padding: 0 0 0% 11%;
+	font-size: 2.8rem;
+	vertical-align: top;
+	line-height: 1.1667;
+	box-sizing: border-box;
+}
+.pageMapZone .pageMapPart.isNo3 ul li:before {
+	width: 7.965%;
+	margin-top: 5%;
+	top: 0;
+	bottom: auto;
+	left: 13%;
+}
+
+
+}/* meadia (max-width:767px) End */

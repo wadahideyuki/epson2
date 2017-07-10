@@ -1,0 +1,84 @@
+<header class="cf">
+	<h1><a href="/products/wgps/"><img src="/products/moment/common/images/logo_header_wristable_gps.png" width="100%" alt="WristableGPS"/></a></h1>
+	<div class="colR">
+		<nav>
+			<div class="headNav isNo1"><a href="#lineup">ラインアップ</a>
+				<div class="pcLineupMenu">
+					<div class="accordion">
+						<div class="inner">
+							<ul>
+								<li><a href="/products/wgps/j350300/"><img src="/products/moment/common/images/head_lineup_img01.png" width="100%" alt="J-350B/F"/></a></li>
+								<li><a href="/products/wgps/j350300/"><img src="/products/moment/common/images/head_lineup_img02.png" width="100%" alt="J-300T/W/B "/></a></li>
+								<li><a href="/products/wgps/sf850p/"><img src="/products/moment/common/images/head_lineup_img03.png" width="100%" alt="SF-850PS/PC/PJ"/></a></li>
+								<li><a href="/products/wgps/j50/"><img src="/products/moment/common/images/head_lineup_img04.png" width="100%" alt="J-50K/T/B"/></a></li>
+								<li><a href="/products/wgps/sf720g/"><img src="/products/moment/common/images/head_lineup_img05.png" width="100%" alt="SF-720G/W/B"/></a></li>
+								<li><a href="/products/wgps/sf120b/"><img src="/products/moment/common/images/head_lineup_img06.png" width="100%" alt="SF-120R/B/G"/></a></li>
+								<li><a href="/products/wgps/q10/"><img src="/products/moment/common/images/head_lineup_img07.png" width="100%" alt="Q-10G/P/B"/></a></li>
+								<li class="col2"><a href="/products/wgps/mz500b/"><img src="/products/moment/common/images/head_lineup_img08.png" width="100%" alt="MZ-500MS/L/Y/B/S"/></a></li>
+								<li><a href="/products/wgps/u350/"><img src="/products/moment/common/images/head_lineup_img09.png" width="100%" alt="U-350BS "/></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="headNav isNo2"><a href="#pickup">PICKUPコンテンツ</a></div>
+			<div class="headNav isNo3"><a href="/products/wgps/shop/">取扱店舗一覧</a></div>
+			<div class="headNav isNo4"><a href="http://shop.epson.jp/wrist/?urlid=121b1000" target="_new">オンライン購入</a></div>
+			<div class="headNav isNo5"><a href="/products/wgps/support/">サポート</a></div>
+		</nav>
+		<div class="searchBox">
+			<input type="search" placeholder="キーワードを入力">
+		</div>
+		<a class="toEpson" href="/"><img src="/products/moment/common/images/logo_header_epson_pc.png" width="100%" alt="EPSON EXCEED YOUR VISION"/></a>
+	</div>
+
+	<div class="spMenuBtn">
+		<a class="opn" href="#"><img src="/products/moment/common/images/sp_menu.png" width="100%" alt="メニュー"/></a>
+		<a class="cls" href="#"><img src="/products/moment/common/images/sp_menu_cls.png" width="100%" alt="&times;"/></a>
+	</div>
+</header>
+
+
+<div class="spMenu">
+	<div class="in">
+		<div class="rowSearch">
+			<div class="searchBoxSp">
+				<span><img src="/products/moment/common/images/icn_search.png" alt="#"/></span>
+				<input type="search" placeholder="キーワードを入力">
+			</div>
+		</div>
+
+		<ul class="spMenuList1">
+			<li class="accordBtn"><a href="#">ラインアップ</a></li>
+			<li class="accordion">
+				<ul>
+					<li><a href="/products/wgps/j350300/">J-350B/F</a></li>
+					<li><a href="/products/wgps/j350300/">J-300T/B/W </a></li>
+					<li><a href="/products/wgps/sf850p/">SF-850PS/PJ/PC </a></li>
+					<li><a href="/products/wgps/j50/">J-50T/B/K </a></li>
+					<li><a href="/products/wgps/sf720g/">SF-720G/B/W </a></li>
+					<li><a href="/products/wgps/sf120b/">SF-120R/B/G </a></li>
+					<li><a href="/products/wgps/q10/">Q-10G/P/B </a></li>
+					<li><a href="/products/wgps/mz500b/">MZ500MS/L/Y/B/S </a></li>
+					<li><a href="/products/wgps/u350/">U-350BS </a></li>
+				</ul>
+			</li>
+			<li><a href="#pickup">PICK UPコンテンツ</a></li>
+			<li><a href="/products/wgps/shop/">取扱店舗一覧</a></li>
+			<li class="icnBlank"><a href="http://shop.epson.jp/wrist/?urlid=121b1000" target="_new">オンライン購入</a></li>
+			<li><a href="/products/wgps/support/">サポート</a></li>
+		</ul>
+
+		<div class="spMenuList2">
+			<p><a href="/products/moment/">EPSON MOMENT</a></p>
+			<ul>
+				<li><a href="/products/trume/">TRUME</a></li>
+				<li><a href="http://www.orient-watch.jp/orientstar/" target="_new" class="icnBlank">ORIENT STAR</a></li>
+				<li><a href="/products/smartcanvas/" target="_new" class="icnBlank">Smart Canvas</a></li>
+			</ul>
+		</div>
+
+		<a class="toEpsonSp" href="/"><img src="/products/moment/common/images/logo_header_epson_pc.png" width="100%" alt="EPSON EXCEED YOUR VISION"/></a>
+
+	</div>
+</div>
