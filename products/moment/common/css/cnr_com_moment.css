@@ -179,7 +179,8 @@ footer a img{
 	text-decoration: none;
 }
 #fNav2 .bottomlogo {
-	display:inline-block;
+/*	display:inline-block;*/
+	display: none;
 	margin:0 auto;
 }
 #fNav2 .nav {

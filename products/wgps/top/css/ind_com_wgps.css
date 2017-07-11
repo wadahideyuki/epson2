@@ -323,7 +323,7 @@ main .lineupBox li img {
 	display: none;
 	background-color: #f0f0f0;
 	margin-top: 20px;
-	padding: 50px 0 45px;
+	padding: 50px 0 25px;
 }
 .recoZone .ttl1 {
 	margin-bottom: 25px;
@@ -339,7 +339,7 @@ main .lineupBox li img {
 }
 .recoZone .bnArea a {
 	display: none;
-	margin: 0 10px;
+	margin: 0 10px 20px;
 }
 .recoZone .bnArea a:hover {
 	opacity: 0.8;
@@ -429,12 +429,12 @@ PICK UP コンテンツ
 }
 .pickupZone .conts p u {
 	display: inline-block;
-	width: 70px;
+	width: 80px;
 	color: #fff;
 	text-align: center;
 	font-size: 13px;
 	vertical-align: top;
-	letter-spacing: -0.2em;
+/*	letter-spacing: -0.2em;*/
 	text-decoration: none;
 }
 @media all and (-ms-high-contrast:none){
@@ -494,7 +494,7 @@ PICK UP コンテンツ
 	border-top: 1px solid #e5e5e5;
 }
 .newsZone .newsBox > a > span {
-	width: 80px;
+	width: 100px;
 }
 .newsZone .newsBox > a > p {
 }
@@ -519,14 +519,14 @@ PICK UP コンテンツ
 }
 .newsZone .btnBox a {
 	display: inline-block;
-	background: url(/products/moment/common/images/arw_r1.png) right center no-repeat;
+	background: url(/products/wgps/common/images/arw_r1.png) right center no-repeat;
 	padding-right: 21px;
 	color: #000;
 	font-size: 14px;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .newsZone .btnBox a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 
@@ -561,7 +561,7 @@ main .visualBox li.visNo2 img {
 おすすめのコンテンツ
 ============================*/
 .recoZone {
-	padding: 5% 0 4%;
+	padding: 5% 0 2%;
 }
 /*============================
 PICK UP コンテンツ
@@ -775,10 +775,10 @@ PICK UP コンテンツ
 	font-size: 0;
 }
 .pickupZone .conts p u {
-	width: 45%;
+	width: 47%;
 	height: auto;
 	padding: 2.6% 0;
-	font-size: 2.4rem;
+	font-size: 2.1rem;
 }
 .pickupZone .conts li:nth-child(n+7) {
 	display: none !important;

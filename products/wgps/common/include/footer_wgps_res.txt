@@ -2,8 +2,8 @@
 	<h2 class="ttl1"><small>PC／スマートフォン対応</small>専用アプリケーション</h2>
 	<div class="bnBox">
 		<a href="/products/wgps/app/">
-			<span class="pcBrows"><img src="/products/moment/common/images/appli_bn.png" width="100%" alt="計測したデータの管理や振り返りに便利なアプリケーション"></span>
-			<span class="spDevice isDisB"><img src="/products/moment/common/images/appli_bn2.jpg" width="100%" alt="計測したデータの管理や振り返りに便利なアプリケーション"></span>
+			<span class="pcBrows"><img src="/products/wgps/common/images/appli_bn.png" width="100%" alt="計測したデータの管理や振り返りに便利なアプリケーション"></span>
+			<span class="spDevice isDisB"><img src="/products/wgps/common/images/appli_bn2.jpg" width="100%" alt="計測したデータの管理や振り返りに便利なアプリケーション"></span>
 		</a>
 	</div>
 </section><!--/.appliZone-->
@@ -15,28 +15,28 @@
 		<ul>
 			<li class="snsFace1">
 				<a target="_new" href="https://www.facebook.com/EpsonJP.WristableGPS/">
-					<span class="img"><img src="/products/moment/common/images/sns_icn_face.png" alt=""></span>
+					<span class="img"><img src="/products/wgps/common/images/sns_icn_face.png" alt=""></span>
 					<p>
-						<strong>Wristable GPS</strong>
+						<strong>WristableGPS</strong>
 						Facebook
 					</p>
 				</a>
 			</li>
 			<li class="snsFace2">
 				<a target="_new" href="https://www.facebook.com/EpsonJP.Trek">
-					<span class="img"><img src="/products/moment/common/images/sns_icn_face.png" alt=""></span>
+					<span class="img"><img src="/products/wgps/common/images/sns_icn_face.png" alt=""></span>
 					<p>
-						<strong><span class="txt1">Wristable GPS</span><span class="txt2">for Trek</span></strong>
+						<strong><span class="txt1">WristableGPS</span><span class="txt2">for Trek</span></strong>
 						Facebook
 					</p>
 				</a>
 			</li>
 			<li class="snsInsta">
 				<a target="_new" href="https://www.instagram.com/wristablegps_forwomen_epson.jp/">
-					<span class="img"><img src="/products/moment/common/images/sns_icn_insta.png" alt=""></span>
+					<span class="img"><img src="/products/wgps/common/images/sns_icn_insta.png" alt=""></span>
 					<p>
-						<strong>Wristable GPS<span class="txt">for Women</span></strong>
-						<span class="img"><img src="/products/moment/common/images/sns_txt01.png" alt=""></span>
+						<strong>WristableGPS<span class="txt">for Women</span></strong>
+						<span class="img"><img src="/products/wgps/common/images/sns_txt01.png" alt=""></span>
 						Instagram 
 					</p>
 				</a>
@@ -64,43 +64,43 @@
 		<ul>
 			<li class="supportBtn1">
 				<a href="/support/used/ks/121.htm">
-					<span><img src="/products/moment/common/images/support_icn01.png" alt=""></span>
+					<span><img src="/products/wgps/common/images/support_icn01.png" alt=""></span>
 					<p>製品マニュアル</p>
 				</a>
 			</li>
 			<li class="supportBtn2">
 				<a href="/support/download/ks/121.htm">
-					<span><img src="/products/moment/common/images/support_icn02.png" alt=""></span>
+					<span><img src="/products/wgps/common/images/support_icn02.png" alt=""></span>
 					<p>ファームウェア</p>
 				</a>
 			</li>
 			<li class="supportBtn3">
 				<a href="/support/faq/ks/121.htm">
-					<span><img src="/products/moment/common/images/support_icn03.png" alt=""></span>
+					<span><img src="/products/wgps/common/images/support_icn03.png" alt=""></span>
 					<p>よくある質問</p>
 				</a>
 			</li>
 			<li class="supportBtn4">
 				<a href="/support/info/ks/121.htm">
-					<span><img src="/products/moment/common/images/support_icn04.png" alt=""></span>
+					<span><img src="/products/wgps/common/images/support_icn04.png" alt=""></span>
 					<p>お問い合わせ</p>
 				</a>
 			</li>
 			<li class="supportBtn5">
 				<a href="/support/hoshu/ks/121.htm">
-					<span><img src="/products/moment/common/images/support_icn05.png" alt=""></span>
+					<span><img src="/products/wgps/common/images/support_icn05.png" alt=""></span>
 					<p>修理サービス</p>
 				</a>
 			</li>
 			<li class="supportBtn6">
 				<a href="/support/wgps/os.htm">
-					<span><img src="/products/moment/common/images/support_icn06.png" alt=""></span>
+					<span><img src="/products/wgps/common/images/support_icn06.png" alt=""></span>
 					<p>対応OS</p>
 				</a>
 			</li>
 			<li class="supportBtn7">
 				<a href="https://cform.epson.jp/form5/pub/e040/2005000005012160739">
-					<span><img src="/products/moment/common/images/support_icn07.png" alt=""></span>
+					<span><img src="/products/wgps/common/images/support_icn07.png" alt=""></span>
 					<p>なんでも質問箱</p>
 				</a>
 			</li>
@@ -112,28 +112,17 @@
 <section class="shareZone">
 	<h2 class="ttl1">SHARE</h2>
 	<ul class="shareBox">
-		<li class="shareFace"><a target="_new" href="http://www.facebook.com/share.php?u=http://www.epson.jp/products/wgps/" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><img src="/products/moment/common/images/share_face.png" width="100%" alt=""></a></li>
-		<li class="shareTwit"><a target="_new" href="http://twitter.com/share?url=http://www.epson.jp/products/wgps/" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><img src="/products/moment/common/images/share_twit.png" width="100%" alt=""></a></li>
+		<li class="shareFace"><a target="_new" href="http://www.facebook.com/share.php?u=http://www.epson.jp/products/wgps/" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><img src="/products/wgps/common/images/share_face.png" width="100%" alt=""></a></li>
+		<li class="shareTwit"><a target="_new" href="http://twitter.com/share?url=http://www.epson.jp/products/wgps/" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><img src="/products/wgps/common/images/share_twit.png" width="100%" alt=""></a></li>
 	</ul>
 
 	<p class="txt1">「#リスタブルでラン」で投稿しよう！</p>
 	<p class="note">
 		注釈について<br>
-		(注1)不整脈、脈欠損がない限り「脈拍数」と「心拍数」はほぼ同じと言われています。<br>
-		(注2)GPS機能使用時（脈拍計測オン時）は20時間<br>
-		(注3)1日8時間の補完信号となります。<br>
 		(注)画像はイメージです。<br>
 		(注)画面はハメコミ合成です。<br>
 		(注)本製品は日本国内のみでご使用ください。<br>
-		(注)画面デザインは変更の可能性があります。<br>
-		<br>
-		商標について<br>
-		(注)Microsoft、Windows、Microsoft Edge、Internet Explorerは、米国Microsoft Corporationの、米国、日本およびその他の国における登録商標または商標です。<br>
-		(注)FirefoxはMozilla Foundationの登録商標です。<br>
-		(注)Android、Google Chrome、Google Play、Google Play のバッジ、YouTubeは、Google Inc.の商標です。<br>
-		(注)Apple、Appleロゴ、Mac OS、Safariは米国および他の国々で登録されたApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。<br>
-		(注)IOSは、米国およびその他の国におけるCisco Systems, Inc. の商標または登録商標であり、ライセンスに基づき使用されます。<br>
-		(注)Bluetoothのワードマークおよびロゴは、Bluetooth SIG,Inc.が所有する登録商標であり、セイコーエプソン株式会社はこれらのマークをライセンスに基づいて使用しています。
+		(注)画面デザインは変更の可能性があります。
 	</p>
 </section><!--/.shareZone-->
 
@@ -166,13 +155,14 @@
 
 			<div class="pageMapPart isNo3">
 				<ul>
-					<li><a href="#pickup">PICKUP<br class="spDevice isDisB">コンテンツ</a></li>
+					<li><a href="/products/wgps/#pickup">PICKUP<br class="spDevice isDisB">コンテンツ</a></li>
 					<li><a href="/products/wgps/kinouhikaku/">製品比較</a></li>
 					<li><a href="/products/wgps/shop/">取扱店舗一覧</a></li>
 					<li><a href="http://shop.epson.jp/wrist/?urlid=121f1000" target="_new"><span class="icnBlank">オンライン購入</span></a></li>
 					<li><a href="http://my.epson.jp/gateway/myepson/sso?_n=%2fmyepson%2fcustomers%2ftop%2f%3F_aid%3Djpf" target="_new"><span class="icnBlank">MyEPSON <br class="spDevice isDisI">ログイン</span></a></li>
 					<li class="spDevice isDisIB"><a href="/support/support_menu/ks/121.htm" target="_new"><span class="icnBlank">販売終了製品<br>仕様情報</span></a></li>
 					<li class="spDevice isDisIB"><a href="/products/wgps/support/" target="_new"><span class="icnBlank">サポート</span></a></li>
+					<li class="spDevice isDisIB"><a href="/products/wgps/sitemap/" target="_new"><span class="icnBlank">サイトマップ</span></a></li>
 				</ul>
 			</div>
 

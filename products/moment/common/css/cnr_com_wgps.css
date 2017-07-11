@@ -78,7 +78,7 @@ header .colR > nav .headNav > a:hover,  header .colR > nav .headNav > a.on {
 	background-color: #4d4d4d;
 }
 header .colR > .searchBox {
-	background: url(/products/moment/common/images/icn_search.png) 8px 9px no-repeat #fff;
+	background: url(/products/wgps/common/images/navi/icn_search.png) 8px 9px no-repeat #fff;
 	background-size: 16px auto;
 	width: 130px;
 	margin: 0px 0 0 10px;
@@ -121,6 +121,7 @@ header .colR > .toEpson {
 }
 .pcLineupMenu .inner {
 	padding: 30px 10px 20px;
+	box-sizing: content-box;
 }
 .pcLineupMenu ul {
 	margin: 0 -5px;
@@ -291,11 +292,11 @@ SNS公式アカウント
 	line-height: 120px;
 }
 .buyZone .buyBox li.hanbaiten a span {
-	background-image: url(/products/moment/common/images/buy_icn01.png);
+	background-image: url(/products/wgps/common/images/buy_icn01.png);
 	padding-left: 119px;
 }
 .buyZone .buyBox li.catalog a span {
-	background-image: url(/products/moment/common/images/buy_icn02.png);
+	background-image: url(/products/wgps/common/images/buy_icn02.png);
 	padding-left: 122px;
 }
 
@@ -317,14 +318,15 @@ SNS公式アカウント
 }
 .supportZone .btnBox a {
 	display: inline-block;
-	background: url(/products/moment/common/images/arw_r1.png) right center no-repeat;
+	background: url(/products/wgps/common/images/arw_r1.png) right center no-repeat;
+	margin-left: 21px;
 	padding-right: 21px;
 	color: #000;
 	font-size: 14px;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .supportZone .btnBox a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 .supportZone .supportBtns ul {
 	margin: 0 -5px;
@@ -427,7 +429,9 @@ SHARE
 	text-align: center;
 }
 .shareZone .note {
-	font-size: 11px;
+	font-size: 11.9px;
+	padding-left: 1.8em;
+	text-indent: -1.8em;
 	line-height: 1.272;
 }
 
@@ -570,11 +574,11 @@ header {
 	font-size: 0.782vw;
 }
 header h1 {
-	width: 16.5%;
+	width: 18%;
 	padding-top: 20px;
 }
 header .colR {
-	width: 83.5%;
+	width: 75%;
 }
 header .colR > nav .headNav > a {
 	padding: 0 15px;
@@ -583,8 +587,6 @@ header .colR > nav .headNav > a {
 header .colR > .toEpson {
 	margin: 0px 0 0 15px;
 }
-
-
 
 }/* meadia (max-width:1280px) End */
 
@@ -597,12 +599,12 @@ body{
 	padding-top: 60px;
 }
 header {
-	height: 60px;
+}
+header h1 {
+	padding-top: 25px;
 }
 header .colR > nav .headNav > a {
-	height: 60px;
 	padding: 0 10px;
-	line-height: 60px;
 }
 header .colR > .searchBox {
 	background-position: 4px 6px;
@@ -621,11 +623,18 @@ header .colR > .searchBox input {
 ヘッダーのラインアップの開閉メニュー
 ============================*/
 .pcLineupMenu {
-	top: 60px;
 }
-
-
 }/* meadia (max-width:1100px) End */
+
+
+@media screen and (max-width:1040px) {
+/*============================
+SHARE
+============================*/
+.shareZone .note {
+	font-size: 1.1443vw;
+}
+}/* meadia (max-width:1040px) End */
 
 
 @media screen and (max-width:1000px) {
@@ -636,12 +645,9 @@ body{
 	padding-top: 50px;
 }
 header {
-	height: 50px;
 }
 header .colR > nav .headNav > a {
-	height: 50px;
 	padding: 0 5px;
-	line-height: 50px;
 }
 
 
@@ -649,7 +655,6 @@ header .colR > nav .headNav > a {
 ヘッダーのラインアップの開閉メニュー
 ============================*/
 .pcLineupMenu {
-	top: 50px;
 }
 
 
@@ -684,6 +689,14 @@ SHARE
 
 
 @media screen and (max-width:990px) {
+/*============================
+ヘッダー
+============================*/
+header h1 {
+	padding-top: 30px;
+}
+
+
 /*============================
 SNS公式アカウント
 ============================*/
@@ -878,11 +891,11 @@ SPのサイドメニュー
 	border-bottom: 1px solid #8c8c8c;
 }
 .spMenuList1 li {
-	background: url(/products/moment/common/images/sp_menu_arw_r.png) 90% center no-repeat;
+	background: url(/products/wgps/common/images/navi/sp_menu_arw_r.png) 90% center no-repeat;
 	background-size: 2.1334vw auto;
 }
 .spMenuList1 li.accordBtn {
-	background: url(/products/moment/common/images/sp_menu_arw_b.png) 90% center no-repeat;
+	background: url(/products/wgps/common/images/navi/sp_menu_arw_b.png) 90% center no-repeat;
 	background-size: 4vw auto;
 }
 .spMenuList1 li.icnBlank {
@@ -892,7 +905,7 @@ SPのサイドメニュー
 	display: block;
 }
 .spMenuList1 li.accordBtn.on {
-	background-image: url(/products/moment/common/images/sp_menu_arw_t.png);
+	background-image: url(/products/wgps/common/images/navi/sp_menu_arw_t.png);
 }
 .spMenuList1 li a {
 	display: block;
@@ -920,7 +933,7 @@ SPのサイドメニュー
 }
 .spMenuList2 a {
 	display: block;
-	background: url(/products/moment/common/images/sp_menu_arw_r.png) right center no-repeat;
+	background: url(/products/wgps/common/images/navi/sp_menu_arw_r.png) right center no-repeat;
 	background-size: 2.1334vw auto;
 	font-weight: bold;
 }
@@ -1074,7 +1087,7 @@ SNS公式アカウント
 .buyZone .buyBox li a:after {
 	content: "";
 	display: inline-block;
-	background: url(/products/moment/common/images/arw_r1.png) 0 0 no-repeat;
+	background: url(/products/wgps/common/images/arw_r1.png) 0 0 no-repeat;
 	background-size: contain;
 	vertical-align: middle;
 	width: 3.6698%;
@@ -1115,8 +1128,9 @@ SNS公式アカウント
 	font-size: 0;
 }
 .supportZone .btnBox a {
-	background: url(/products/moment/common/images/arw_r1.png) right center no-repeat;
+	background: url(/products/wgps/common/images/arw_r1.png) right center no-repeat;
 	background-size: 9.6386% auto;
+	margin-left: 6.422%;
 	padding-right: 6.422%;
 	font-size: 2.6rem;
 }
@@ -1200,7 +1214,7 @@ SHARE
 }
 .shareZone .note {
 	padding: 0 6.9334%;
-	font-size: 2.0rem;
+	font-size: 2.4rem;
 	line-height: 1.5;
 }
 
