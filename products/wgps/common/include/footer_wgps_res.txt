@@ -99,7 +99,7 @@
 				</a>
 			</li>
 			<li class="supportBtn7">
-				<a href="https://cform.epson.jp/form5/pub/e040/2005000005012160739">
+				<a href="http://okbizcs.okwave.jp/epson/questionlist/?cid=157">
 					<span><img src="/products/wgps/common/images/support_icn07.png" alt=""></span>
 					<p>なんでも質問箱</p>
 				</a>
