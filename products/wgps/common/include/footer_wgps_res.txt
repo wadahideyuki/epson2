@@ -118,11 +118,23 @@
 
 	<p class="txt1">「#リスタブルでラン」で投稿しよう！</p>
 	<p class="note">
-		注釈について<br>
-		(注)画像はイメージです。<br>
-		(注)画面はハメコミ合成です。<br>
-		(注)本製品は日本国内のみでご使用ください。<br>
-		(注)画面デザインは変更の可能性があります。
+		<span>注釈について</span>
+		<br>
+		<span>(注)画像はイメージです。</span>
+		<span>(注)画面はハメコミ合成です。</span>
+		<span>(注)本製品は日本国内のみでご使用ください。</span>
+		<span>(注)画面デザインは変更の可能性があります。</span>
+		<span>(注)本サービスはYouTube™のサービスを使って提供いたします。</span>
+		<span>(注)価格はメーカー希望小売価格であり、実際の価格は各取扱販売店でご確認ください。</span>
+		<br>
+		 <span>商標について</span>
+		<br>
+		<span>(注)Internet Explorer、Microsoft、Microsoft Edge、Windowsは、米国 Microsoft Corporation の、米国、日本およびその他の国における登録商標または商標です。 </span>
+		<span>(注)Firefoxは、Mozilla Foundation の登録商標です。 </span>
+		<span>(注)Google Chrome、YouTubeは、Google Inc. の商標です。 </span>
+		<span>(注)Mac、Mac OS、Safariは、Apple Inc.の商標です。 </span>
+		<span>(注)IOSは、米国およびその他の国におけるCisco Systems, Inc. の商標または登録商標であり、ライセンスに基づき使用されます。 </span>
+		<span>(注)Bluetooth のワードマークおよびロゴは、 Bluetooth SIG,Inc. が所有する登録商標であり、セイコーエプソン株式会社 はこれらのマークをライセンスに基づいて使用しています。</span>
 	</p>
 </section><!--/.shareZone-->
 

@@ -5,7 +5,7 @@
 	padding: 0;
 }
 body {
-	font-family: "游ゴシック Medium", Yu Gothic Medium, "游ゴシック", Yu Gothic, "游ゴシック体", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", meiryo, sans-serif;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-size: 12px;
 	line-height: 1.4;
@@ -430,10 +430,14 @@ SHARE
 }
 .shareZone .note {
 	font-size: 11.9px;
-	padding-left: 1.8em;
-	text-indent: -1.8em;
 	line-height: 1.272;
 }
+.shareZone .note span{
+	display: block;
+	padding-left: 1.8em;
+	text-indent: -1.8em;
+}
+
 
 /*============================
 ページ下部のサイトマップ
