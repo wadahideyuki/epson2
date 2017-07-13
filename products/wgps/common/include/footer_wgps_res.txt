@@ -170,7 +170,7 @@
 					<li><a href="/products/wgps/#pickup">PICKUP<br class="spDevice isDisB">コンテンツ</a></li>
 					<li><a href="/products/wgps/kinouhikaku/">製品比較</a></li>
 					<li><a href="/products/wgps/shop/">取扱店舗一覧</a></li>
-					<li><a href="http://shop.epson.jp/wrist/?urlid=121f1000" target="_new"><span class="icnBlank">オンライン購入</span></a></li>
+					<li><a class="redirect_target shop_sub_nav" href="http://shop.epson.jp/wrist/?urlid=121f1000" target="_new"><span class="icnBlank">オンライン購入</span></a></li>
 					<li><a href="http://my.epson.jp/gateway/myepson/sso?_n=%2fmyepson%2fcustomers%2ftop%2f%3F_aid%3Djpf" target="_new"><span class="icnBlank">MyEPSON <br class="spDevice isDisI">ログイン</span></a></li>
 					<li class="spDevice isDisIB"><a href="/support/support_menu/ks/121.htm" target="_new"><span class="icnBlank">販売終了製品<br>仕様情報</span></a></li>
 					<li class="spDevice isDisIB"><a href="/products/wgps/support/" target="_new"><span class="icnBlank">サポート</span></a></li>

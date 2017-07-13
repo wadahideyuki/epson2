@@ -23,7 +23,7 @@
 			</div>
 			<div class="headNav isNo2"><a href="/products/wgps/#pickup">PICKUPコンテンツ</a></div>
 			<div class="headNav isNo3"><a href="/products/wgps/shop/">取扱店舗一覧</a></div>
-			<div class="headNav isNo4"><a href="http://shop.epson.jp/wrist/?urlid=121b1000" target="_new">オンライン購入</a></div>
+			<div class="headNav isNo4"><a class="redirect_target shop_head" href="http://shop.epson.jp/wrist/?urlid=121b1000" target="_new">オンライン購入</a></div>
 			<div class="headNav isNo5"><a href="/products/wgps/support/">サポート</a></div>
 		</nav>
 		<div class="searchBox">
@@ -71,7 +71,7 @@
 			</li>
 			<li><a href="/products/wgps/#pickup">PICK UPコンテンツ</a></li>
 			<li><a href="/products/wgps/shop/">取扱店舗一覧</a></li>
-			<li class="icnBlank"><a href="http://shop.epson.jp/wrist/?urlid=121b1000" target="_new">オンライン購入</a></li>
+			<li class="icnBlank"><a class="redirect_target shop_head" href="http://shop.epson.jp/wrist/?urlid=121b1000" target="_new">オンライン購入</a></li>
 			<li><a href="/products/wgps/support/">サポート</a></li>
 		</ul>
 
