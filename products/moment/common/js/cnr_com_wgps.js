@@ -40,4 +40,10 @@ var thisPage = window.location.href;
 console.log(thisPage);
 $(".shareZone .shareBox .shareFace a").attr("href", "http://www.facebook.com/share.php?u=" + thisPage);
 
+//twitterのシェアボタン
+var ogTtl = $("meta[property='og:title']").attr("content");
+var encodeTtl = encodeURIComponent(ogTtl);//twitterのテキストはエンコードが必要
+console.log(ogTtl);
+$(".shareZone .shareBox .shareTwit a").attr("href", "http://twitter.com/share?url=" + thisPage + "&text=" + encodeTtl);
+
 });//Fnc End
