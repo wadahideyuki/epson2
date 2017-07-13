@@ -481,38 +481,41 @@ PICK UP コンテンツ
 	width: 100%;
 	font-size: 13px;
 }
-.newsZone .newsBox > a {
+.newsZone .newsBox > li {
 	display: table-row;
-	color: #000;
 }
-.newsZone .newsBox > a > * {
+.newsZone .newsBox > li > * {
 	display: table-cell;
 	padding: 14px 5px;
 	border-bottom: 1px solid #e5e5e5;
 }
-.newsZone .newsBox > a:first-child > * {
+.newsZone .newsBox > li:first-child > * {
 	border-top: 1px solid #e5e5e5;
 }
-.newsZone .newsBox > a > span {
+.newsZone .newsBox > li > span {
 	width: 105px;
 }
-.newsZone .newsBox > a > p {
+.newsZone .newsBox > li > p {
 }
-.newsZone .newsBox > a:hover > p {
-	text-decoration: underline;
-}
-.newsZone .newsBox > a.lbl > p {
+.newsZone .newsBox > li.lbl > p {
 	background-position: 5px 14px;
 	background-repeat: no-repeat;
 	background-size: 66px auto;
 	padding-left: 85px;
 }
-.newsZone .newsBox > a.lbl.isInfo > p {
+.newsZone .newsBox > li.lbl.isInfo > p {
 	background-image: url(/products/wgps/top/images/news_lbl_info.png);
 }
-.newsZone .newsBox > a.lbl.isGoods > p {
+.newsZone .newsBox > li.lbl.isGoods > p {
 	background-image: url(/products/wgps/top/images/news_lbl_goods.png);
 }
+.newsZone .newsBox > li a{color: #000;}
+	.newsZone .newsBox > li a:hover{text-decoration: underline;}
+	.newsZone .newsBox > li a.kobetuLink{
+		color: #00e;
+		text-decoration: underline;
+	}
+		.newsZone .newsBox > li a.kobetuLink:hover{text-decoration: none;}
 .newsZone .btnBox {
 	margin: 20px 20px 0 0;
 	text-align: right;
@@ -820,22 +823,22 @@ PICK UP コンテンツ
 	padding: 0 6.4%;
 	font-size: 2.6rem;
 }
-.newsZone .newsBox > a {
+.newsZone .newsBox > li {
 	display: block;
 	border-bottom: 1px solid #e5e5e5;
 }
-.newsZone .newsBox > a:first-child {
+.newsZone .newsBox > li:first-child {
 	border-top: 1px solid #e5e5e5;
 }
-.newsZone .newsBox > a > * {
+.newsZone .newsBox > li > * {
 	display: block;
 	border: none !important;
 }
-.newsZone .newsBox > a > span {
+.newsZone .newsBox > li > span {
 	width: auto;
 	padding: 3.8227% 0;
 }
-.newsZone .newsBox > a.lbl > span:after {
+.newsZone .newsBox > li.lbl > span:after {
 	content: "";
 	display: inline-block;
 	background-position: 0 0;
@@ -846,13 +849,13 @@ PICK UP コンテンツ
 	padding-top: 5.9634%;
 	vertical-align: middle;
 }
-.newsZone .newsBox > a.lbl.isInfo > span:after {
+.newsZone .newsBox > li.lbl.isInfo > span:after {
 	background-image: url(/products/wgps/top/images/news_lbl_info.png);
 }
-.newsZone .newsBox > a.lbl.isGoods > span:after {
+.newsZone .newsBox > li.lbl.isGoods > span:after {
 	background-image: url(/products/wgps/top/images/news_lbl_goods.png);
 }
-.newsZone .newsBox > a > p {
+.newsZone .newsBox > li > p {
 	background: none !important;
 	padding: 0 0 3.8227% !important;
 }

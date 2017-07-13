@@ -80,7 +80,7 @@ header .colR > nav .headNav > a:hover,  header .colR > nav .headNav > a.on {
 header .colR > .searchBox {
 	background: url(/products/wgps/common/images/navi/icn_search.png) 8px 9px no-repeat #fff;
 	background-size: 16px auto;
-	width: 130px;
+	width: 150px;
 	margin: 0px 0 0 10px;
 	padding-left: 31px;
 }
@@ -587,6 +587,9 @@ header .colR {
 header .colR > nav .headNav > a {
 	padding: 0 15px;
 	font-size: 1.4em;
+}
+header .colR > .searchBox {
+	width: 140px;
 }
 header .colR > .toEpson {
 	margin: 0px 0 0 15px;
