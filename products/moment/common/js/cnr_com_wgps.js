@@ -35,4 +35,9 @@ $(".spMenuList1 .accordBtn a").click(function(){
 	return false;
 });
 
+//facebookのシェアボタンのリンクを書き換える
+var thisPage = window.location.href;
+console.log(thisPage);
+$(".shareZone .shareBox .shareFace a").attr("href", "http://www.facebook.com/share.php?u=" + thisPage);
+
 });//Fnc End

@@ -5,7 +5,7 @@
 	padding: 0;
 }
 body {
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+	font-family:"游ゴシック Medium", Yu Gothic Medium, "游ゴシック", Yu Gothic, "游ゴシック体", YuGothic, "ヒラギノ角ゴ ProN　 W3", "Hiragino Kaku Gothic ProN", "メイリオ", meiryo, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-size: 12px;
 	line-height: 1.4;

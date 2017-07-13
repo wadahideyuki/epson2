@@ -89,7 +89,7 @@ footer {
 	font-size: 14px;
 	background: #000000;
 	color: #fff;
-	font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+	font-family:"游ゴシック Medium", Yu Gothic Medium, "游ゴシック", Yu Gothic, "游ゴシック体", YuGothic, "ヒラギノ角ゴ ProN　 W3", "Hiragino Kaku Gothic ProN", "メイリオ", meiryo, sans-serif;
 	line-height: 1.5;
 }
 footer a, footer a:visited ,footer a:link {

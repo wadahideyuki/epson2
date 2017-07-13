@@ -113,7 +113,7 @@
 	<h2 class="ttl1">SHARE</h2>
 	<ul class="shareBox">
 		<li class="shareFace"><a target="_new" href="http://www.facebook.com/share.php?u=http://www.epson.jp/products/wgps/" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><img src="/products/wgps/common/images/share_face.png" width="100%" alt=""></a></li>
-		<li class="shareTwit"><a target="_new" href="http://twitter.com/share?url=http://www.epson.jp/products/wgps/" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><img src="/products/wgps/common/images/share_twit.png" width="100%" alt=""></a></li>
+		<li class="shareTwit"><a target="_new" href="http://twitter.com/share" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><img src="/products/wgps/common/images/share_twit.png" width="100%" alt=""></a></li>
 	</ul>
 
 	<p class="txt1">「#リスタブルでラン」で投稿しよう！</p>
@@ -123,7 +123,7 @@
 		<span>(注)画像はイメージです。</span>
 		<span>(注)画面はハメコミ合成です。</span>
 		<span>(注)本製品は日本国内のみでご使用ください。</span>
-		<span>(注)画面デザインは変更の可能性があります。</span>
+		<span>(注)画面デザイン、製品本体の色味は変更の可能性があります。</span>
 		<span>(注)本サービスはYouTube™のサービスを使って提供いたします。</span>
 		<span>(注)価格はメーカー希望小売価格であり、実際の価格は各取扱販売店でご確認ください。</span>
 		<br>
